@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/roommate_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roommate: [user email]"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/roommate_spent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Money Spent: $0.00"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/roommate_average"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Average Spending: $0.00"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/roommate_difference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Difference from Average: $0.00" />
+</LinearLayout>
+
+

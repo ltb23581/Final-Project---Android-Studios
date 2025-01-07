@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_shopping_list"
+            android:icon="@drawable/nav_shopping_list"
+            android:title="Shopping List" />
+
+        <item
+            android:id="@+id/nav_shopping_basket"
+            android:icon="@drawable/nav_shopping_basket"
+            android:title="Shopping Basket" />
+
+        <item
+            android:id="@+id/nav_purchases"
+            android:icon="@drawable/nav_checkout"
+            android:title="Checkout" />
+
+        <item
+            android:id="@+id/nav_expenses"
+            android:icon="@drawable/nav_expenses"
+            android:title="Receipts" />
+
+        <item
+            android:id="@+id/nav_roommate_expenses"
+            android:icon="@drawable/nav_roommate_expenses"
+            android:title="Roommate Expenses" />
+    </group>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/nav_logout"
+        android:title="Logout" />
+
+</menu>
